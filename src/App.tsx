@@ -6,7 +6,7 @@ const options = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    'X-API-KEY': 'fyIVAQVh9WRO3OdKVP1zJcmZKAWIINl2IyjfRC08doY='
+    'X-API-KEY': import.meta.env.VITE_API_KEY
   }
 };
 
